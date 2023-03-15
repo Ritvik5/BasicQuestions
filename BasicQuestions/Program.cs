@@ -18,7 +18,10 @@
             //IfElse.MinMaxArithmetic();
             //IfElse.MinMaxRandomNumber();
             //IfElse.IsLeapYear();
-            IfElse.IsHeadOrTail();
+            //IfElse.IsHeadOrTail();
+            //While.SumOfNaturalnumbers();
+            //While.ReverseNumber();
+            While.PalindromeNumber();
         }
     }
 }
