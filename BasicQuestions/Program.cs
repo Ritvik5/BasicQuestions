@@ -21,7 +21,10 @@
             //IfElse.IsHeadOrTail();
             //While.SumOfNaturalnumbers();
             //While.ReverseNumber();
-            While.PalindromeNumber();
+            //While.PalindromeNumber();
+            //ForLoop.SumOfNaturalNumbs();
+            //ForLoop.Reverse();
+            ForLoop.IsPalindrome();
         }
     }
 }
