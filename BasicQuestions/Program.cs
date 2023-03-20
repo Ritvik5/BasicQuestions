@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Leap Year Check \n");
+            //Console.WriteLine("Welcome to Leap Year Check \n");
 
             //int number = Convert.ToInt32(Console.ReadLine());
 
@@ -24,7 +24,31 @@
             //While.PalindromeNumber();
             //ForLoop.SumOfNaturalNumbs();
             //ForLoop.Reverse();
-            ForLoop.IsPalindrome();
+            //ForLoop.IsPalindrome();
+            //FibonacciSeries.Fibonacci();
+            //Arrays.CopyArray();
+            //Arrays.Sort();
+            //Arrays.SortBubble();
+            //Arrays.BubbleSort();
+            //Arrays.InsertionSort();
+            //List.InsertionSort();
+            //List.BubbleSort();
+
+
+            int[] numbers = new int[10] { 102, 20, 25, 26, 2, 44, 45, 65, 111, 999 };
+            foreach (int i in numbers)
+            {
+                Console.WriteLine(i);
+            }
+            MergeSortArray.MergeSort(numbers);
+
+            Console.WriteLine("\nAfter Implementing Merge Sort\n");
+
+            foreach (int i in numbers)
+            {
+                Console.WriteLine(i);
+            }
+            
         }
     }
 }
